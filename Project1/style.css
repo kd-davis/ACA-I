@@ -1,0 +1,25 @@
+@import "./styles/bootstrap.css";
+@import "./styles/bootstrap-grid.css";
+@import "./styles/bootstrap-reboot.css";
+
+body {
+  background-color: #fc834f;
+  color: #343a40;
+}
+hr {
+  color: #343a40;
+  
+}
+i {
+  color: #343a40;
+}
+.card {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  box-shadow: 5px 10px 8px #888888;
+}
+.row {
+  margin-top: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
