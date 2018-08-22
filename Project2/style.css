@@ -16,6 +16,17 @@ body {
   height: 500px;
   color: #fff;
 }
-#tracks {
+/*#tracks {
   background-color: #004667;
+}*/
+.row {
+  margin-top: 2em;
+}
+#syllabus p {
+  font-size: 1.25em;
+}
+#footer hr {
+  color: white;
+  border: 2px;
+  !important;
 }
