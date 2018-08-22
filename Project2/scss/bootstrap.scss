@@ -40,3 +40,23 @@
 @import "carousel";
 @import "utilities";
 @import "print";
+
+
+/*
+My added stylesheet
+*/
+
+.primary-color {
+  background-color: $primary-color;
+}
+.secondary-color {
+  background-color: $secondary-color;
+}
+#bottom-nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#bottom-nav a:hover {
+  color: #ececec;
+  text-decoration: none;
+}
