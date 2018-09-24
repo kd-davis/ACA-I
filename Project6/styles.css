@@ -1,0 +1,11 @@
+@import "./styles/bootstrap.css";
+@import "./styles/bootstrap-grid.css";
+@import "./styles/bootstrap-reboot.css";
+
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700');
+
+body {
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  color: #4d4d4d;
+}
