@@ -42,48 +42,46 @@
     </div>
 
     <!-- Contact Form -->
-    <form>
-      <div class="form-row">
-        <div class="form-group col-md-4">
-          <label for="inputEmail4">First Name</label>
-          <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
-        </div>
-        <div class="form-group col-md-4">
-          <label for="inputPassword4">Last Name</label>
-          <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
-        </div>
-        <div class="form-group col-md-4">
-          <label for="inputPassword4">Email</label>
-          <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 pb-2 text-center">
+          <h1>Contact Me</h1>
+          <br>
         </div>
       </div>
-      <div class="form-group">
-        <label for="inputAddress">Address</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-      </div>
-      <div class="form-group">
-        <label for="inputAddress2">Address 2</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-      </div>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="inputCity">City</label>
-          <input type="text" class="form-control" id="inputCity">
+
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputFirstName">First Name</label>
+            <input type="text" class="form-control" id="inputFirstName">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputLastName">Last Name</label>
+            <input type="text" class="form-control" id="inputLastName">
+          </div>
         </div>
-        <div class="form-group col-md-4">
-          <label for="inputState">State</label>
-          <select id="inputState" class="form-control">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputNumber">Phone Number</label>
+            <input type="number" class="form-control" id="inputNumber">
+          </div>
         </div>
-        <div class="form-group col-md-2">
-          <label for="inputZip">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="inputRequest">Request Details</label>
+            <textarea class="form-control" id="inputRequest" rows="4"></textarea>
+          </div>
         </div>
-      </div>
-      <button type="submit" class="btn btn-warning">Submit</button>
-    </form>
+        <div class="form-row">
+          <button type="submit" class="btn btn-warning">Submit</button>
+        </div>
+      </form>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
